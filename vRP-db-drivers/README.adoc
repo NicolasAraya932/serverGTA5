@@ -1,0 +1,24 @@
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+= Driver list
+
+== oxmysql
+
+[horizontal]
+name:: `oxmysql`
+resource:: `vrp_oxmysql`
+project:: https://github.com/overextended/oxmysql/
+
+NOTE: Legacy vRP users - Use the `vrp_oxmysql` resource found here (https://github.com/KokeroO/oxmysql-vrp-legacy) along with `oxmysql`.
+
+NOTE: oxmysql latest release is recommended. Lowest version usable is 2.0.1
+
+[WARNING]
+The vRP database configuration is not supported; oxmysql configuration must be used instead. +
+The `multipleStatements` option must be enabled in the connection string (e.g., `mysql://root:password@localhost/vrp?multipleStatements=true`).
