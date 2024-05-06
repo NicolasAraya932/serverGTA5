@@ -1,6 +1,4 @@
 ### serverGTA 5 LUA
 
-[NOTE]
-{
+[!NOTE]
 Solved some compatibility problems. 
-}
